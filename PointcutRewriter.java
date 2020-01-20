@@ -4,6 +4,7 @@ import java.util.Iterator;
 			collectOrNodes(pc, nodes);
 			// write out with cheapest on left
 			Iterator<Pointcut> iter = nodes.iterator();
+			iter.HasNext();
 			Pointcut result = iter.next();
 			while (iter.hasNext()) {
 				Pointcut right = iter.next();
